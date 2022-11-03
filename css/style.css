@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.eot");
+    src: url("/fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'),
+         url("/fonts/Roboto-Regular.woff2") format('woff2'),
+         url("../fonts/Roboto.woff") format('woff'),
+         url("/fonts/Roboto-Regular.ttf") format('truetype');
+}
+
+
+
+
+
+
+body * {
+    font-style: italic !important;
+    
+    /*font-family: "Roboto"; Font gefällt mir nicht*/
+}
+
+
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,255,255);
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+.me{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+    padding-bottom: 30px;
+    
+}
+
+.bga{
+    height: 150px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(236,235,235,1) 22%, rgba(48,48,51,1) 100%);
+}
+
+.bga2{
+    height: 8px;
+    background: rgb(106,106,110);
+    background: linear-gradient(180deg, rgba(106,106,110,1) 53%, rgba(255,255,255,1) 100%);
+}
+
+.bga3{
+    height: 150px;
+}
+
+.ca{
+    padding-top: 70px;
+}
+
+
+.back{
+    background: rgb(0, 0, 0);
+    
+}
+.sbg{
+    height: 20px;
+    background: rgb(31,31,35);
+    background: linear-gradient(180deg, rgba(31,31,35,1) 20%, rgba(0,0,0,1) 100%);
+}
+.sbsz{
+    height: 80px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 1%, rgba(255,255,255,1) 44%);
+}
